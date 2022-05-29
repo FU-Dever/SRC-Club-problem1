@@ -108,7 +108,7 @@
 
         setInterval(
             () => {
-                if (!document.getElementById("ck2_1").checked) {
+                if (!document.getElementById("ck2_1").checked || !document.getElementById("ck2").checked) {
                     document.getElementById("scp1").setAttribute("path", "");
                     document.getElementById("scp1").innerText = "👉👈 Path disappear!"
                 }
